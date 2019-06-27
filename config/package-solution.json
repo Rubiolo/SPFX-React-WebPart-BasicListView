@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aa-react-web-part-client-side-solution",
+    "id": "ab91927b-309a-4683-ab0c-a7a6e8eb18b7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/aa-react-web-part.sppkg"
+  }
+}

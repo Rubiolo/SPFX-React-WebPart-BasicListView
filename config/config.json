@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "aa-react-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aaReact1/AaReact1WebPart.js",
+          "manifest": "./src/webparts/aaReact1/AaReact1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AaReact1WebPartStrings": "lib/webparts/aaReact1/loc/{locale}.js"
+  }
+}
