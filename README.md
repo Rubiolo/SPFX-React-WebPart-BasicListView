@@ -1,6 +1,8 @@
-## aa-react-web-part
+## SPFX-React-WebPart-BasicListView
 
-This is where you include your WebPart documentation.
+Basic WebPart showing a (static) SharePoint list with dynamic link to the elements.
+
+To change the web and/or list you must modify the parameters in the 'getContactsListData()' function and the 'toElement' variable of 'AaReact1.tsx'. 
 
 ### Building the code
 
@@ -17,10 +19,3 @@ This package produces the following:
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
 
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
