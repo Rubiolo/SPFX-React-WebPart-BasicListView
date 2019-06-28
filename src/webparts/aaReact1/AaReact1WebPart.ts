@@ -13,7 +13,7 @@ import { IAaReact1Props } from './components/IAaReact1Props';
 
 export interface IAaReact1WebPartProps {
   description: string;
-}
+  }
 
 export default class AaReact1WebPart extends BaseClientSideWebPart<IAaReact1WebPartProps> {
 
@@ -21,7 +21,8 @@ export default class AaReact1WebPart extends BaseClientSideWebPart<IAaReact1WebP
     const element: React.ReactElement<IAaReact1Props > = React.createElement(
       AaReact1,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        spClientContext: this.context.spHttpClient
       }
     );
 
